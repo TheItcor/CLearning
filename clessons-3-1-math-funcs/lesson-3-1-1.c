@@ -3,6 +3,8 @@
 
 int main(void) {
     
-
+    
+    printf("%d", pow(2, 5));
+    
     return 0;
 }
