@@ -1,10 +1,11 @@
 #include <stdio.h>
+int main(void)
+{
+  float diameter=113, length=355;
 
-int main()
-{   
-    int x;
-    printf("Hello, World!");
-    scanf("%d", &x);
+  float pi = length/diameter;
 
-    return 0;
+  printf("pi = %.5lf\n", pi);
+
+  return 0;
 }
