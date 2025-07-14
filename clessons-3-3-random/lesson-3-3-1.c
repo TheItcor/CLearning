@@ -8,6 +8,5 @@ int main(void)
     int rand_digit = rand();
     printf("%d\n",rand_digit);
     
-    return 1;
     return 0;
 }
